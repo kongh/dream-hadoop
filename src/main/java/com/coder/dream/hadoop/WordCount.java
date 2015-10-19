@@ -44,8 +44,8 @@ public class WordCount {
     }
 
     public static void main(String[] args) throws Exception{
-        String input = "hdfs://127.0.0.1:9000/user/hdfs/o_t_account";
-        String output = "hdfs://127.0.0.1:9000/user/hdfs/o_t_account/result";
+        String input = "hdfs://master:9000/usr/local/hadoop/hdfs/o_t_account";
+        String output = "hdfs://master:9000/usr/local/hadoop/hdfs/o_t_account/result";
 
         JobConf conf = new JobConf(WordCount.class);
         conf.setJobName("WordCount");

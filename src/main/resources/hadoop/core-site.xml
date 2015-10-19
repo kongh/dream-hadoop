@@ -18,26 +18,7 @@
 
 <configuration>
     <property>
-
-        <name>dfs.replication</name>
-
-        <value>1</value>
-
-    </property>
-
-    <property>
-
-        <name>dfs.namenode.name.dir</name>
-
-        <value>file:/usr/local/hadoop/hdfs/name</value>
-
-    </property>
-
-    <property>
-
-        <name>dfs.datanode.data.dir</name>
-
-        <value>file:/usr/local/hadoop/hdfs/data</value>
-
+        <name>fs.default.name</name>
+        <value>hdfs://master:9000</value>
     </property>
 </configuration>
